@@ -1,0 +1,25 @@
+#!/bin/sh
+#Read from the source files , and make a proper macro table
+#$1-----source files folder
+#$2-----output table file
+#$3-----keyword
+
+if [ $# -gt 3 ] || [ $# -lt 3 ]
+then
+	echo "Usage:"
+	echo "`basename $0`" "[source folder]" " [output]" "[keyword]"
+fi
+
+count=0
+buffer=NONE
+
+for x in $1
+do
+	buffer=`cat $x | grep $3 | cut -f2 -d"(" | cut -f1 -d")"`
+	for y in $buffer
+	do
+		echo -e "#define " $y "\t\t\t" $count >> $2
+		count=`expr $count + 1`
+	done
+done
+

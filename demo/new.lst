@@ -1,0 +1,7 @@
+
+etn	B;
+def	A=(dfdf,B);
+def	B=(A,dfdfd);
+
+prt	A;
+

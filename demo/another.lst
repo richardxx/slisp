@@ -1,0 +1,26 @@
+#I love Audery Hepburn 
+
+#The most attractive girl in the world
+
+#To express my respect , I wrote this small program
+
+
+etn	B;
+etn	C;
+etn	D;
+def	A=(audery,hepburn);
+def	B=(richard,leon,D,C);
+def	D=(love);
+def	C=(A);		#ok , so good ...
+def	E=(D,E,E);
+
+prt	B(The result is :);
+prt	A(this is the full name of a beauty: );
+had	A(This is the first name of her: );
+tal	A(The tail of the list is :  );
+dpt	A(The max depth of A is:  );
+cnt	A(The number of elements in A is :  );
+inv	A;
+
+prt	E;
+

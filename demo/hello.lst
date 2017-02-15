@@ -1,0 +1,21 @@
+#	This is the first course for this language
+
+etn	OT;
+etn     YY;
+etn     IO;
+
+#The lines above are all declarations 
+#Ok, let's begin to define them
+
+def	ABCD=((the,IO),OT,pig);
+def	OT=(is,a);
+def     YY=(just,for,you);
+def     IO=(bright,young,man);
+
+prt	OT(this is OT:);
+prt	IO(this is IO:);
+prt	ABCD(let's look at the list first:	);
+
+#cnt	ABCD(the number of element in ABCD: )      ;
+#dpt	ABCD(the max depth of ABCD is:  )	;
+
